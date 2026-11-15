@@ -35,6 +35,7 @@ It converts non-negative integers between binary, decimal, and hexadecimal.
 - [x] Add the Python number converter.
 - [x] Add worked example answers for Mission 1 (review and personalize them before submission).
 - [x] Add a detailed Mission 2 Terminal guide and safe practice exercise (run the commands and complete the personal log/reflection before submission).
+- [x] Add a detailed Mission 3 operating-system guide covering processes, memory, storage, paths and permissions (complete personal observations/reflection before submission).
 - [ ] Add privacy-safe evidence where useful.
 - [ ] Review the final report and submission checklist.
 
