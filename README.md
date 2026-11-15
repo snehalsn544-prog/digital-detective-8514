@@ -36,6 +36,11 @@ It converts non-negative integers between binary, decimal, and hexadecimal.
 - [x] Add worked example answers for Mission 1 (review and personalize them before submission).
 - [x] Add a detailed Mission 2 Terminal guide and safe practice exercise (run the commands and complete the personal log/reflection before submission).
 - [x] Add a detailed Mission 3 operating-system guide covering processes, memory, storage, paths and permissions (complete personal observations/reflection before submission).
+- [x] Add a detailed Mission 4 programming guide with Python examples and interpreter/compiler comparison (run examples and complete reflection).
+- [x] Add a detailed Mission 5 number-systems and data guide with converter tests (run converter and record actual results).
+- [x] Add a detailed Mission 6 Git and GitHub practice guide (run safe Git exercises and complete reflection).
+- [x] Add a detailed Mission 7 networking guide with safe diagnostic exercises (run tests and complete reflection).
+- [x] Add the Mission 8 final-report template and submission checklist (complete it honestly after finishing the missions).
 - [ ] Add privacy-safe evidence where useful.
 - [ ] Review the final report and submission checklist.
 
