@@ -33,7 +33,8 @@ It converts non-negative integers between binary, decimal, and hexadecimal.
 - [x] Create the GitHub repository and mission folder structure.
 - [x] Add mission README starter files.
 - [x] Add the Python number converter.
-- [ ] Complete each mission and update its README with your own work.
+- [x] Add worked example answers for Mission 1 (review and personalize them before submission).
+- [ ] Complete the remaining missions and update their READMEs with your own work.
 - [ ] Add privacy-safe evidence where useful.
 - [ ] Review the final report and submission checklist.
 
