@@ -86,15 +86,26 @@ clang --version
 
 You do not need to install a compiler just to finish the Python exercise.
 
-## 6. Your experiment log
+## 6. Experiment results (run in the assistant's test environment)
 
-Complete this table after running the examples yourself.
+I ran a non-interactive version of the example logic with Python 3.13.5 using the test values name=Asha, age=18 and number=7.
 
-| Experiment | What I changed | What happened |
+```text
+Hello, Asha
+Next year you will be 19
+Odd
+Practice 1
+Practice 2
+Practice 3
+```
+
+| Experiment | Test input | Observed output |
 |---|---|---|
-| Name and age program |  |  |
-| Even/odd program |  |  |
-| Loop range |  |  |
+| Name and age logic | Asha, 18 | Hello, Asha; next year you will be 19 |
+| Even/odd condition | 7 | Odd |
+| Loop range | range(1, 4) | Practice 1, Practice 2, Practice 3 |
+
+**Interpretation:** the arithmetic increased 18 to 19, 7 was classified as odd, and the loop body ran three times. This is an assistant-environment test, not a run on the student's Mac. The interactive input version is expected to behave the same for these values.
 
 ## 7. Check your understanding
 
