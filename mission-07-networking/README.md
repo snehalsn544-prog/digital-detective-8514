@@ -86,13 +86,17 @@ This attempts to show network hops toward the destination. Some hops may not res
 
 **Suggested answers:** A LAN covers a smaller local area while a WAN connects networks over larger distances. Domain names are easier for people to remember. DNS resolves names to records such as IP addresses. Routers connect networks; switches connect devices within a LAN. HTTPS protects HTTP using TLS. Ping may be filtered or blocked even when web traffic is allowed.
 
-## Observation log
+## Experiment results (assistant environment)
 
-| Test | What I observed (do not include private addresses) |
+I attempted safe read-only checks against the public example domain from the assistant's execution environment.
+
+| Test | Observed result |
 |---|---|
-| `ping -c 4 example.com` |  |
-| `nslookup example.com` |  |
-| Optional traceroute |  |
+| DNS lookup for `example.com` | Could not complete: temporary failure in name resolution |
+| `ping -c 2 example.com` | Could not run: this environment does not permit raw ICMP sockets (`Operation not permitted`) |
+| Traceroute | Not attempted because network access was unavailable |
+
+**Interpretation:** these failures describe restrictions in the assistant's sandbox, not a fault with `example.com` and not the state of the student's network. A failed ping or DNS attempt in this restricted environment cannot be used to conclude that a website or network is down. No private IP addresses or network details are recorded.
 
 ## Reflection
 
