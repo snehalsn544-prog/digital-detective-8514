@@ -118,14 +118,22 @@ A pull request is a GitHub collaboration feature. A contributor pushes a branch 
 | `git pull` | Fetch and integrate remote changes |
 | `git push` | Send local commits to a remote |
 
-## Experiment log
+## Experiment results (isolated temporary Git repository)
 
-| Command I ran | What it displayed or changed |
+I ran the following workflow in a disposable temporary folder with a local test identity. No GitHub remote was configured and nothing was pushed.
+
+| Step | Observed result |
 |---|---|
-| `git status` |  |
-| `git add` and `git commit` |  |
-| `git log --oneline` |  |
-| Branch command |  |
+| `git init -b main` | Initialized a local repository on branch main |
+| First `git status --short` | `?? notes.txt` (untracked file) |
+| After `git add notes.txt` | `A  notes.txt` (staged new file) |
+| First commit | Created commit `Add first practice note` |
+| Edited file and `git diff` | Showed one added line: `A second line` |
+| Second commit | Created commit `Add second note` |
+| `git switch -c practice-branch` | Switched to `practice-branch` |
+| `git log --oneline -2` | Showed both commits, newest first |
+
+**Conclusion:** the experiment confirmed the untracked → staged → committed workflow, how `git diff` displays edits, and how a branch can be created. This was an isolated assistant-environment test, not a change to this assignment repository.
 
 ## Reflection
 
