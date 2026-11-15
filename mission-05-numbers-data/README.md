@@ -89,13 +89,20 @@ Suggested test values:
 
 **Check answers:** 1) 10, 2) 10010, 3) 10, 4) 24 bits. For question 5, explain that encoding maps characters to stored byte sequences and enables consistent decoding.
 
-## Experiment log
+## Experiment results (converter run in the assistant's test environment)
 
-| Input (decimal) | Binary result | Hex result | Did it match my hand calculation? |
-|---:|---|---|---|
-| 13 |  |  |  |
-| 47 |  |  |  |
-| 255 |  |  |  |
+I ran the converter logic and the interactive converter flow with supplied test input. Results:
+
+| Conversion | Observed result | Check |
+|---|---|---|
+| Decimal 0 to binary / hex | 0 / 0 | Correct |
+| Decimal 13 to binary / hex | 1101 / D | Correct |
+| Decimal 47 to binary / hex | 101111 / 2F | Correct |
+| Decimal 255 to binary / hex | 11111111 / FF | Correct |
+| Hexadecimal 2F to decimal | 47 | Correct |
+| Interactive decimal 13 to binary | Result: 1101 | Correct |
+
+**Conclusion:** all listed test cases produced the expected values. These tests were run in the assistant's environment; they do not prove the program has been run on the student's Mac.
 
 ## Reflection
 
