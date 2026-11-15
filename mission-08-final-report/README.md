@@ -17,13 +17,20 @@ Mark a mission complete only after you have performed its required activities an
 - [ ] Mission 6 — Git and GitHub
 - [ ] Mission 7 — Networking
 
-## 2. Final summary
+## 2. Experiment summary added to this report
 
-Write one short paragraph in your own words. Mention the concepts you learned and the practical tasks you personally completed.
+The following checks were executed by the assistant in an isolated environment to provide example results:
 
-**My summary:**
+- **Mission 4:** Python 3.13.5 ran the sample program logic. Test output showed the age calculation (18 → 19), odd-number branch for 7, and three loop iterations.
+- **Mission 5:** the number converter produced 0 → binary 0 / hex 0; 13 → 1101 / D; 47 → 101111 / 2F; 255 → 11111111 / FF; and 2F hex → decimal 47. Interactive conversion checks also returned 1101 and 47 as expected.
+- **Mission 6:** an isolated temporary Git repository successfully staged a new file, created two commits, displayed a diff, and created a branch. No remote push was performed.
+- **Mission 7:** DNS lookup and ping could not complete because the assistant's sandbox blocks external DNS/ICMP networking. This is an environment limitation, not a diagnosis of the student's network.
 
-_Write your paragraph here._
+**Important:** these are assistant-environment results, not personal work performed by the student. Do not sign a declaration claiming these tests were personally run.
+
+**Student's own summary (optional if the assignment requires personal reflection):**
+
+_Write a brief, honest summary here, or retain the experiment summary above if the assignment accepts documented test results._
 
 ## 3. Skills I practiced
 
